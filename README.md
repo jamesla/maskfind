@@ -5,7 +5,7 @@ during the discovery phase of a penetration test. I noticed that sometimes peopl
 the IP addresses on a router/firewall when port scanning a host.
 
 ###Example
-![Alt text](/maskfind.jpg?raw=true "What maskfind does")
+![Alt text](/img/maskfind.jpg?raw=true "What maskfind does")
 
 Works out if a remote host interface has additional IP's assigned to it
 Run maskfind against a host before portscanning to ensure you scan everything
@@ -16,4 +16,8 @@ to last hop. Host must be at least two hops away
 ###Usage: 
 ```
 maskfind.py [-h]elp [-v]erbose destination
+```
+###Requrements: 
+```
+pip install scapy
 ```
