@@ -11,7 +11,6 @@ This will give accurate results providing ICMP is enabled on the second
 to last hop. Host must be at least two hops away
 
 ###Usage: 
-'''
+```
 maskfind.py [-h]elp [-v]erbose destination
-'''
-
+```
