@@ -4,6 +4,9 @@ I wrote this because I couldn't find anything that could work out a remote subne
 during the discovery phase of a penetration test. I noticed that sometimes people were missing some of 
 the IP addresses on a router/firewall when port scanning a host.
 
+###Example
+![Alt text](/maskfind.jpg?raw=true "What maskfind does")
+
 Works out if a remote host interface has additional IP's assigned to it
 Run maskfind against a host before portscanning to ensure you scan everything
 
